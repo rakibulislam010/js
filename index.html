@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS</title>
+</head>
+<body>
+
+
+	<!-- text start -->
+	<h1 id="text">Here is the change </h1>
+	<button type="button" onclick="myFunction()">Click me</button><br>
+	<!-- text end -->
+
+	<!-- date start -->
+	
+	<h1 id="date">Here click to see the date</h1>
+	<button type="button" onclick="myDate()">Click me</button><br>
+	
+	<!-- date end -->
+	<!-- mango start -->
+	<img id="mango" src="img/mango1.jpg" alt="mango"><br>
+	<button type="button" onclick="myMango1()">sweet</button>
+	<button type="button" onclick="myMango2()">eat</button>
+
+	<!-- mango end -->
+
+	<!-- css change -->
+	<p id="css"> JAVA SCRIPT can change style.</p>
+	<button type="button" onclick="myCss()">Click me</button>
+
+	<!-- css change -->
+
+	
+
+
+
+
+
+
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/script.js"></script>
+	<!-- text start -->
+	<script>
+		// text start
+		function myFunction(){
+			document.getElementById("text").innerHTML="MY name is Rakib";
+		};
+
+		// text start
+
+		// date start
+		function myDate(){
+			document.getElementById("date").innerHTML= Date();
+		};
+		// date start
+
+		// mango start
+		function myMango1(){
+			document.getElementById("mango").src="img/mango1.jpg"
+		};
+		function myMango2(){
+			document.getElementById("mango").src="img/mango2.jpg"
+		};
+
+		// mango end
+
+		// css start
+		function myCss(){
+			document.getElementById("css").style.fontSize="40px";
+		};
+		// css start
+	</script>
+	
+</body>
+</html>
